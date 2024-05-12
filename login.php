@@ -1,8 +1,9 @@
 <?php
+session_start();
 
-// if(isset($_SESSION['id'])){
-//     header("Location: account");
-// }
+if(isset($_SESSION['id'])){
+    header("Location: account");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
